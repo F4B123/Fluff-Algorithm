@@ -78,7 +78,7 @@ async function run() {
         await page.goto('https://etherscan.io/token/' + contract);
 
         ///link does not work
-        let link = ((await page.content()).split('<iframe id="tokentxnsiframe" src="')[1]).split('1" frameborder="0"')[0].replace(/&amp/g, "&")
+        let link = ((await page.content())).replace(/&amp/g, "&")
         await browser.close()
         console.log(">Link:",link)
     } catch (error) {
