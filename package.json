@@ -1,18 +1,29 @@
 {
-  "name": "fluff",
+  "name": "fluff-algorithm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F4B123/Fluff-Algorithm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F4B123/Fluff-Algorithm/issues"
+  },
+  "homepage": "https://github.com/F4B123/Fluff-Algorithm#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
   "dependencies": {
-    "abi-decoder": "^2.4.0",
-    "etherscan-api": "^10.0.5",
-    "puppeteer": "^14.0.0"
+    "@tensorflow/tfjs-node": "^4.2.0",
+    "libsvm-js": "^0.2.1",
+    "scikitjs": "^1.24.0"
   }
 }
